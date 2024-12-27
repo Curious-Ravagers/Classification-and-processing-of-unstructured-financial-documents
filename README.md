@@ -7,9 +7,13 @@ This project aims to streamline the extraction, processing, and analysis of unst
 ## Features
 
 **Document Upload:** Supports uploading various financial document formats (PDFs, scanned images, etc.).
+
 **OCR Integration:** Extracts text data from scanned documents with high accuracy.
+
 **NLP Analysis:** Processes extracted text for key financial insights such as - Expense categorization, invoice summarization and, financial trend detection.
+
 **Machine Learning Models:** Learns from financial data to provide predictive insights.
+
 **Dashboard:** Visualizes and creates a download option for downloading the extracted information and analysis results for easy interpretation.
 
 
@@ -20,7 +24,9 @@ This project aims to streamline the extraction, processing, and analysis of unst
 This project implements a document processing model that allows users to upload a PDF document through a simple HTML form. Once uploaded, the document is processed and analyzed to extract categorized information. The current model performs the following tasks:
 
 **Text Extraction:** Extracts readable text from PDF documents using an OCR-based approach.
+
 **Categorization:** The extracted text is categorized using a machine learning model for document classification.
+
 **Information Extraction:** The model extracts relevant data points from the document, such as names, dates, amounts, and addresses.
 
 The system is designed to handle PDF files, with the ability to extend to other file types (such as images) in the future. The output is a categorized summary of the extracted information, which includes the document's type, a concise summary, and extracted entities.
